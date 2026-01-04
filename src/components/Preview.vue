@@ -32,7 +32,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div>
+  <div class="w-fullflex flex-col">
     <header class="bg-blue-700 p-4 flex justify-between items-center">
       <h1 class="text-1xl font-bold text-white">Markdown Preview</h1>
       <div class="bg-white p-[2px] px-[8px] text-blue-700 rounded-sm text-sm">
@@ -40,9 +40,9 @@ onUnmounted(() => {
       </div>
     </header>
 
-    <main class="px-4">
+    <main class="px-4 w-full mt-2">
       <div
-        class="w-full h-screen prose"
+        class="w-full h-screen prose max-w-none overflow-y-auto"
         placeholder="Type your markdown here..."
         v-html="renderedMarkdown"
       ></div>

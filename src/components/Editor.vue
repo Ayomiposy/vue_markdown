@@ -18,7 +18,7 @@ const emit = defineEmits<{
 
     <main class="px-4 mt-2">
       <textarea
-        class="w-full h-screen outline-none"
+        class="w-full h-screen outline-none overflow-y-auto resize-none"
         placeholder="Type your markdown here..."
         :value="props.modelValue"
         @input="
