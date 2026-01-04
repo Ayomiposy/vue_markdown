@@ -4,7 +4,7 @@ A real-time markdown editor built with Vue 3, TypeScript, and Tailwind CSS. Feat
 
 ## 📸 Preview 2
 
-![Markdown Editor Preview](./screenshots/app-preview.png)
+![Markdown Editor Preview](./screenshot/app-preview.png)
 
 ![Vue](https://img.shields.io/badge/Vue-3.x-4FC08D?logo=vue.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)
@@ -12,7 +12,7 @@ A real-time markdown editor built with Vue 3, TypeScript, and Tailwind CSS. Feat
 
 ## 📸 Preview 2
 
-![Markdown Editor Preview](./screenshots/app-preview2.png)
+![Markdown Editor Preview](./screenshot/app-preview2.png)
 
 ## ✨ Features
 
