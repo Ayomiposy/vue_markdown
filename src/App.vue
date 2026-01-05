@@ -9,11 +9,11 @@ const markedText = ref("");
 </script>
 
 <template>
-  <div class="flex flex-col lg:flex-row">
-    <Editor v-model="markedText" class="w-1/2 sm:w-full" />
+  <div class="flex flex-col lg:flex-row h-screen">
+    <Editor v-model="markedText" class="w-full sm:w-full" />
     <Preview
       :markedText="markedText"
-      class="w-1/2 sm:w-full border-l-2 border-gray-300"
+      class="w-full sm:w-full border-l-2 border-gray-300"
     />
   </div>
 </template>
